@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Indian Tea</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Indian Tea Recipe</h1>
+    </header>
+    <div class="container">
+        <div id="steps">
+            <h1>Tea Making Process</h1>
+    <h3>Ingredients</h3>
+    <ul>
+        <li>Water</li>
+        <li>Milk</li>
+        <li>Tea Powder of your choice</li>
+        <li>Sugar</li>
+        <li>Optional addition of spices</li>
+    </ul>
+    <h3>How to Make Chai Tea at Home</h3>
+            <ol>
+                <li class="step" data-sound="waterjar.mp3">Boil water in a saucepan.</li>
+                <li class="step" data-sound="boil.mp3">Add tea powder, sugar, and spices (like cardamom or ginger) to the boiling water.</li>
+                <li class="step" data-sound="milk.mp3">Pour in milk and let it simmer.</li>
+                <li class="step" data-sound="strain.mp3">Strain the tea into cups and serve hot.</li>
+            </ol>
+        </div>
+        <div id="image">
+            <img src="teacup.avif" alt="Cup of Indian Tea">
+        </div>
+    </div>
+    
+    <button id="stepsButton">Hide Steps</button>
+
+    <audio id="hoverSound" src=""></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
